@@ -6,17 +6,25 @@ from oauth2client.service_account import ServiceAccountCredentials
 import tensorflow as tf
 import plotly.graph_objs as go
 import time
+import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
+# Get sensitive information from environment variables
+model_path = os.getenv('MODEL_PATH', r'C:\Users\OJO ABAYOMI MOSES\Documents\ECG-detection-main\trained model(.h5)\cnnmodel.h5')
+creds_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS', r'C:\Users\OJO ABAYOMI MOSES\Downloads\deeplearning-finalyearproject-2bae82cca4f8.json')
+spreadsheet_key = os.getenv('SPREADSHEET_KEY')
 
 # Load pre-trained model
-model_path = r'C:\Users\OJO ABAYOMI MOSES\Documents\ECG-detection-main\trained model(.h5)\cnnmodel.h5'
 model = tf.keras.models.load_model(model_path)
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 # Google Sheets setup
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name(r'C:\Users\OJO ABAYOMI MOSES\Downloads\deeplearning-finalyearproject-2bae82cca4f8.json', scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name(creds_path, scope)
 client = gspread.authorize(creds)
-spreadsheet_key = '1ppw-iYs-yUzqgHCQ_Vgym7Ivm1j_wU0FFl3lDtlfuOI'
 sheet_name = 'sensors_data'
 
 # Class labels with advice
