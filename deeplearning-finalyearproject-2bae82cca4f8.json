@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "deeplearning-finalyearproject",
+  "private_key_id": "2bae82cca4f83035c3a230ebfd493066fbe3ef02",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDKohNgbLL9JftA\nk2oohVSWdabMzHHoq7PqkFjDq9UmWCk9mCdnzQX0AkhhsKtMty2Z+2Ucw0QE3Xki\nPun4YJ2bq4UsJuj5ewYRUdEuEjWgA7W3zD9gLogStjmAfqFGfdDTcqsdQLgZUbQ/\n8zKVkePMBAetMEgkxpbIe/SQvi3YdOUIx4q1JX6oVaNMcpXz6f9Zmr641T7Zp5tQ\n8TnPT9E9a/XKT0eL5nV+fdzcn6rdokiFYs1wzuyGycN63knnSboV3+v4zJxily8R\nJPGJWpbfgbQ5IKS9s/lK/GsbzbqAPhaJXCSsTFPN1eOXq5DCsNBIwnp0GU42PSV7\n70kLoG0/AgMBAAECgf8+UPxzOjGcb8bs7FYEXsAAx/55rZllyB5cREp3+WjgmAGC\n8Ly0RzQmI2H3Xy9DzBOlQKoIOsZjiTvPSYBsT0ZpoBDh08fMh4VJ240VjfXZKjnX\nppFWB8JjPV1IBd6a3WJpoQLxejknm5dEPTYGXXe5byE84k+Ga+dwWjU9/qrSrFcK\nD5yVariGPTcBfdyM/mUXVr254dQ1vP0CdTK8583s9cUiSIuZ20yf7BcpoEJjZklX\nztjq9Fm+okCzPJP2xl3tVEU9kJN9GXZpXoFY/ksCN1HLLxVPH9PmNREf043H7cwD\npEZ1M90rpKO/AaH6QSmdZCTvUR0PtFh+s30P6skCgYEA+ak0riIhND+btOi7jRD8\nUZ+AUb1gEgXmAwvM5oPl4umzESR6P503+W/W+vM0hNML7hWySXhahZ6d/vZ3UHkw\ntBFeuj+yIm3ei/FjWu+a5qEHMm2Apo9cnrbjgtxb/VHkqvkKwA46fUnbX89mt9+4\nHRm1RZq0B8zGeDLJvoRCT2kCgYEAz8cwcsmA1n4f7dV6GCz+kjiy7khTTK7RgmzI\nREda9+V/w0KIHnrI2Ix0y0iyspLqlJMNy+2uph+0TwLBvfKCHppxHNe1+I9TVTGA\nP3NJp4rf2rnWlkWbo44ke3rvWOLoRmEFAHsPbkksWjJEYtgjUo2n7LLgL6lFAy3T\nQZ5pamcCgYEAxWcX41PTI0fkKvAWU50JlNRkFr2BN974FpJ/CglifL/COZy5GJGM\nT6sxta0Vaqyg8ziuhs8l7B8V2CIzBys76jUNzIBOrlBnNgnAQIfR1+edFC9nGMuk\nNU5wp+jqx2q4PsO5z0+wyZ3bWm9YTa0UG9ZW8Vk4Xi55A1NNF1nmQHkCgYEAzzuX\nKdWqZ8Rx6g+yb+xol8RvSlPeqSvvkIsZD2iv5XIEBOcVxnimW71zO9GtUYhQ6ZDm\nANB2EgCrIObZ/66hcw6M5LyNJXUmI2F0zVQaUT2k2Y3i5gxVGELMRlAt6tSd4Jwh\nlgInONNIpklehcuXJ15b7yvViBPm3i3Vd6wc7d8CgYAP/bmIFCxr2xwMXxkNOhOa\nGotZSGSr2SVQh6a1j8nuU5xBCGUxaUK9uypjDaolVdcxODLtKQVGRAbAc1vXcWUU\nBBetsD3FGtZlBgSXG2CwJ6KlO2ziwmcihkRX3T/l0v40WhR8f6w3bQf/d/pwideR\nkoLhVjhnm9q15W8J/7sjkg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "final-year-project@deeplearning-finalyearproject.iam.gserviceaccount.com",
+  "client_id": "109345490530654462093",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/final-year-project%40deeplearning-finalyearproject.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
