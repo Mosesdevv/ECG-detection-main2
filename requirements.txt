@@ -6,3 +6,4 @@ imbalanced-learn==0.10.1
 tensorflow==2.12.0
 seaborn==0.12.2
 keras==2.12.0
+gspread==4.0.0
