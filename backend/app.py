@@ -8,7 +8,7 @@ import plotly.graph_objs as go
 import time
 
 # Load pre-trained model
-model_path = '\trained model(.h5)\cnnmodel.h5'
+model_path = 'trained model(.h5)/cnnmodel.h5'
 model = tf.keras.models.load_model(model_path)
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
